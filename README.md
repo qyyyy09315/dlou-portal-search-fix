@@ -2,6 +2,8 @@
 
 非学校官方的 Tampermonkey 用户脚本，版本 1.0.0，MIT 许可证。用于缓解门户综合搜索时整页跳转、搜索词和结果丢失的问题。
 
+[在 Greasy Fork 安装](https://greasyfork.org/zh-CN/scripts/603862) · [GitHub Releases](https://github.com/qyyyy09315/dlou-portal-search-fix/releases)
+
 ## 修复方式
 
 门户搜索输入变化后会防抖调用搜索接口。公共请求封装在缺少登录 token 或收到 401 时跳转到统一登录页，可能导致搜索框和结果丢失。
@@ -40,3 +42,7 @@
 ## 许可证
 
 [MIT License](LICENSE)，Copyright (c) 2026 CanCanNeed。
+
+## 发布与同步
+
+Greasy Fork 从本仓库 `main` 分支的 `dlou-portal-search-fix.user.js` 导入，并开启定期自动同步。自动同步不是即时推送，代码更新后需要等待平台检查。中文补充说明在 Greasy Fork 页面单独维护。
