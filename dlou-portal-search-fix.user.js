@@ -5,6 +5,8 @@
 // @description  单独处理门户搜索鉴权失败，保留搜索词并提示重新登录，避免搜索调用公共登录跳转逻辑。
 // @author       CanCanNeed
 // @license      MIT
+// @homepageURL  https://github.com/qyyyy09315/dlou-portal-search-fix
+// @supportURL   https://github.com/qyyyy09315/dlou-portal-search-fix/issues
 // @match        https://my.dlou.edu.cn/frontend/center_portal_dlou/*
 // @run-at       document-start
 // @grant        none
